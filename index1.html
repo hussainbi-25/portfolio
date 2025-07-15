@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌿Glow Up Extensions </title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </div>
+</head>
+<body class="bg-pink-50 font-sans text-gray-800">
+
+  <!-- Navigation -->
+  <nav class="bg-pink-300 p-5 shadow-md sticky top-0 z-50">
+    <div class="flex justify-between items-center max-w-7xl mx-auto">
+      <h1 class="text-2xl font-bold text-pink-900">🌿 Glow Up Extensions</h1>
+      <div class="space-x-6">
+        <a href="#home" class="hover:text-white font-medium transition">Home</a>
+        <a href="#about" class="hover:text-white font-medium transition">About Us</a>
+        <a href="#testimonials" class="hover:text-white font-medium transition">Testimonials</a>
+        <a href="#contact" class="hover:text-white font-medium transition">Contact</a>
+        <a href="#create-profile" class="hover:text-white font-medium transition">Profile</a>
+        <a href="#quiz" class="hover:text-white font-medium transition">Quiz</a>
+        <a href="#" onclick="openCart()" class="hover:text-white font-medium transition">🛒 Cart</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Offer Banner -->
+  <!-- Kimirica Offer Banner -->
+<div class="bg-pink-100 border border-pink-300 rounded-2xl p-6 mt-6 mb-6 flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg hover:shadow-xl transition-all duration-300">
+  <!-- Text Section -->
+  <div class="text-left">
+    <h2 class="text-3xl font-bold text-pink-700 mb-2">🌞 Kimirica Special Offer!</h2>
+    <p class="text-lg text-pink-600 mb-4">
+      Enjoy <span class="font-bold text-pink-800">up to 30% OFF</span> on our bestselling 
+      <span class="underline">Moisturizers</span> & <span class="underline">Sunscreens</span> this summer!
+    </p>
+    <a href="#kimirica-products">
+      <button class="px-6 py-2 bg-pink-600 text-white rounded-full shadow-md hover:bg-pink-700 hover:scale-105 transition">
+        Shop Kimirica Now
+      </button>
+    </a>
+  
+    <section id="kimirica-products" class="mt-10">
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 md:px-12">
+    
+        <!-- Add more Kimirica product cards below as needed -->
+      </div>
+    </section>
+  </div>
+
+  <!-- Animation/Image Section -->
+  <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-pink-300 shadow-md">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFh7PIQhdBDoId51C5Ymftei-JUg301wTbmg&s" 
+         alt="Face Applying Cream" 
+         class="object-cover w-full h-full">
+  </div>
+</div>
+
+<video autoplay muted loop class="w-full h-90 object-cover rounded-lg mb-4 ">
+  <source src="C:\Users\DELL\Downloads\skin care.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+  <!-- Home / Products -->
+  <section id="home" class="p-10 max-w-7xl mx-auto fade-in">
+    <h2 class="text-4xl font-bold text-center text-pink-800 mb-10">Kimirica  & Minimalist Skincare Collection</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8" id="productList">
+      <!-- JS Inserts Products Here -->
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="bg-white py-12 px-6 mt-10 fade-in">
+    <h2 class="text-3xl font-bold text-center text-pink-800 mb-10">Real Customer Feedback</h2>
+    <div class="flex flex-wrap justify-center gap-6">
+      <div class="bg-pink-100 p-5 rounded-xl w-80 shadow-md card-hover">
+        <p class="italic text-lg">"This is the best face wash I've used in years!"</p>
+        <div class="mt-4 flex items-center gap-3">
+          <img src="https://i.pravatar.cc/30?img=4" class="w-10 h-10 rounded-full" alt="Customer" />
+          <span class="font-semibold text-pink-800">Aisha M.</span>
+        </div>
+      </div>
+      <div class="bg-pink-100 p-5 rounded-xl w-80 shadow-md card-hover">
+        <p class="italic text-lg">"Amazing quality and quick results. Love Kimirica!"</p>
+        <div class="mt-4 flex items-center gap-3">
+          <img src="https://i.pravatar.cc/30?img=5" class="w-10 h-10 rounded-full" alt="Customer" />
+          <span class="font-semibold text-pink-800">Rahul S.</span>
+        </div>
+        </div>
+    </div>
+  </section>
+    </div>
+
+  </div>
+  
+
+  <!-- Footer Style Contact + About -->
+  <section id="about" class="bg-pink-100 py-10 px-6 fade-in">
+    <h2 class="text-3xl font-bold text-center text-pink-800 mb-6">About Glow Up Extensions</h2>
+    <p class="max-w-3xl mx-auto text-center text-lg">
+      We’re dedicated to offering gentle, effective, and clean skincare that delivers results. Every Kimirica product is backed by science and loved by customers who believe in radiant skin.
+    </p>
+  </section>
+  <section id="contact" class="bg-white py-10 px-6 fade-in">
+    <h2 class="text-3xl font-bold text-center text-pink-800 mb-6">Contact Us</h2>
+    <form class="max-w-lg mx-auto space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg border" required />
+      <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg border" required />
+      <textarea placeholder="Message" class="w-full p-3 rounded-lg border" rows="4" required></textarea>
+      <button type="submit" class="bg-pink-600 text-white py-3 px-6 rounded-lg hover:bg-pink-700 transition">Send</button>
+    </form>
+  </section>
+
+  <!-- Create Profile -->
+  <section id="create-profile" class="bg-pink-50 py-10 px-6 fade-in">
+    <h2 class="text-3xl font-bold text-center text-pink-800 mb-6">Create Your Profile</h2>
+    <form class="max-w-lg mx-auto space-y-4">
+      <input type="text" placeholder="Full Name" class="w-full p-3 rounded-lg border" required />
+      <input type="email" placeholder="Email" class="w-full p-3 rounded-lg border" required />
+      <input type="password" placeholder="Password" class="w-full p-3 rounded-lg border" required />
+      <button type="submit" class="bg-pink-600 text-white py-3 px-6 rounded-lg hover:bg-pink-700 transition">Sign Up</button>
+    </form>
+  </section>
+
+  <!-- Skin Quiz -->
+  <section id="quiz" class="bg-pink-100 py-10 px-6 fade-in">
+    <h2 class="text-3xl font-bold text-center text-pink-800 mb-6">Take Our Skin Quiz</h2>
+    <form id="quizForm" class="max-w-lg mx-auto space-y-4">
+      <input type="text" placeholder="Your Skin Type (e.g., Oily, Dry)" class="w-full p-3 rounded-lg border" required />
+      <input type="text" placeholder="Your Skin Concern" class="w-full p-3 rounded-lg border" required />
+      <button type="submit" class="bg-pink-600 text-white py-3 px-6 rounded-lg hover:bg-pink-700 transition">Get Suggestions</button>
+    </form>
+  </section>
+  <!-- Cart Modal -->
+  <div id="cartModal" class="fixed inset-0 bg-black bg-opacity-60 hidden items-center justify-center z-50">
+    <div class="bg-white w-full max-w-md p-6 rounded-xl relative">
+      <button onclick="closeCart()" class="absolute top-2 right-4 text-2xl text-gray-500 hover:text-red-500">&times;</button>
+      <h2 class="text-xl font-bold text-pink-700 mb-4">Your Cart</h2>
+      <div id="cartItems" class="space-y-4 max-h-64 overflow-y-auto"></div>
+      <div class="mt-4 font-semibold text-lg text-pink-600">Total: ₹<span id="cartTotal">0</span></div>
+    </div>
+  </div>
+
+  <!-- Order Modal -->
+  <div id="orderModal" class="fixed inset-0 bg-black bg-opacity-60 hidden items-center justify-center z-50">
+    <div class="bg-white max-w-md w-full p-6 rounded-xl relative">
+      <button onclick="closeOrderModal()" class="absolute top-2 right-4 text-xl text-gray-600 hover:text-red-500">&times;</button>
+      <h2 class="text-xl font-bold text-pink-700 mb-4">Order Details</h2>
+      <div id="orderDetails" class="text-gray-700"></div>
+      <div class="mt-4 space-x-4">
+        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Cash on Delivery</button>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Pay via PhonePe</button>
+      </div>
+    </div>
+  </div>
+
